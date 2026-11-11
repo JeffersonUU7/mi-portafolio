@@ -2,6 +2,8 @@
 
 Portafolio profesional de Jefferson Alexander Requeno Arévalo, estudiante de Ingeniería en Desarrollo de Software en la Universidad de Oriente (UNIVO), El Salvador.
 
+🌐 **Ver portafolio en línea:** [mi-portafolio-gold-pi.vercel.app](https://mi-portafolio-gold-pi.vercel.app/)
+
 ## Contenido
 
 - Presentación y perfil
