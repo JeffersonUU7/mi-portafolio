@@ -7,31 +7,57 @@
   <meta name="description" content="Portafolio de Jefferson Alexander Requeno Arévalo, estudiante de Ingeniería en Desarrollo de Software en UNIVO, El Salvador. 2.º lugar en innovación, Rally Latinoamericano de Innovación 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
 
-  <header class="hero">
+  <header class="hero" id="inicio">
+    <div class="wrap">
+      <nav class="topbar" aria-label="Navegación principal">
+        <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">J</span> JEFFERSON<span class="brand-dot">.DEV</span></a>
+        <div class="nav-links">
+          <a href="#sobre">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </div>
     <div class="wrap hero-grid">
-      <div>
-        <p class="kicker">Ingeniería en Desarrollo de Software, UNIVO</p>
-        <h1>Jefferson Alexander<br>Requeno Arévalo</h1>
-        <p class="lead">Estudiante de segundo año que desarrolla aplicaciones web con TypeScript, Python, Node.js y Next.js. Segundo lugar en innovación en el Rally Latinoamericano de Innovación 2026.</p>
+      <div class="hero-copy">
+        <p class="kicker"><span class="status-dot" aria-hidden="true"></span> DISPONIBLE PARA OPORTUNIDADES</p>
+        <p class="eyebrow">INGENIERÍA EN DESARROLLO DE SOFTWARE · UNIVO</p>
+        <h1>Hola, soy<br><span>Jefferson</span><br>Requeno.</h1>
+        <p class="lead">Creo soluciones web, aprendo construyendo y convierto ideas en proyectos reales. Estudiante de software y segundo lugar en innovación en el Rally Latinoamericano 2026.</p>
         <p class="actions">
-          <a class="btn primary" href="#proyectos">Ver proyectos</a>
-          <a class="btn" href="#contacto">Contactarme</a>
+          <a class="btn primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↓</span></a>
+          <a class="btn" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
         </p>
       </div>
-      <img class="foto" src="foto.png" width="236" height="357" alt="Retrato de Jefferson Requeno con saco y corbata">
+      <div class="hero-visual">
+        <div class="pixel-scene" aria-hidden="true">
+          <span class="pixel-sun"></span><span class="pixel-cloud cloud-one"></span><span class="pixel-cloud cloud-two"></span>
+          <span class="pixel-mountain mountain-back"></span><span class="pixel-mountain mountain-front"></span>
+          <span class="pixel-tree tree-one"></span><span class="pixel-tree tree-two"></span>
+          <span class="pixel-ground"></span><span class="pixel-flower flower-one"></span><span class="pixel-flower flower-two"></span>
+        </div>
+        <div class="portrait-card">
+          <span class="portrait-label">PLAYER 01 <span aria-hidden="true">✦</span></span>
+          <img class="foto" src="foto.png" width="236" height="357" alt="Retrato de Jefferson Requeno con saco y corbata">
+          <div class="portrait-caption"><span class="level-badge">LVL 02</span><span>DEV EN PROGRESO</span></div>
+        </div>
+        <span class="floating-cube cube-one" aria-hidden="true"></span>
+        <span class="floating-cube cube-two" aria-hidden="true"></span>
+        <span class="visual-note">MUNDO: CREATIVO</span>
+      </div>
     </div>
   </header>
 
   <main id="contenido" class="wrap">
 
-    <section class="bloque" aria-labelledby="t-sobre">
-      <h2 id="t-sobre">Sobre mí</h2>
+    <section class="bloque" id="sobre" aria-labelledby="t-sobre">
+      <h2 id="t-sobre"><span class="section-index">01</span> Sobre mí</h2>
       <div class="cuerpo">
         <p>Estudio Ingeniería en Desarrollo de Software en la Universidad de Oriente (UNIVO) y cursando el cuarto ciclo. Practico a diario en GitHub: he construido aplicaciones web, APIs y sistemas con contenedores en las materias de Programación Orientada a Eventos, Gestión de Servidores Web y Estructuras de Datos.</p>
         <p>Busco una pasantía o un puesto junior donde pueda aportar con código y seguir aprendiendo en un equipo de desarrollo.</p>
@@ -39,7 +65,7 @@
     </section>
 
     <section class="bloque destacado" aria-labelledby="t-logro">
-      <h2 id="t-logro">Reconocimiento</h2>
+      <h2 id="t-logro"><span class="section-index">02</span> Reconocimiento</h2>
       <div class="cuerpo">
         <h3>2.º lugar, categoría de innovación</h3>
         <p>Rally Latinoamericano de Innovación 2026, sede Universidad de Oriente, El Salvador. Con el equipo <strong>Optired</strong> competí el 16 y 17 de octubre de 2026, de forma simultánea con equipos de 11 países de la región.</p>
@@ -48,7 +74,7 @@
     </section>
 
     <section class="bloque" id="proyectos" aria-labelledby="t-proy">
-      <h2 id="t-proy">Proyectos</h2>
+      <h2 id="t-proy"><span class="section-index">03</span> Proyectos</h2>
       <div class="cuerpo">
 
         <article class="proyecto">
@@ -99,7 +125,7 @@
     </section>
 
     <section class="bloque" aria-labelledby="t-hab">
-      <h2 id="t-hab">Habilidades</h2>
+      <h2 id="t-hab"><span class="section-index">04</span> Habilidades</h2>
       <div class="cuerpo">
         <h3>Lenguajes</h3>
         <ul class="chips">
@@ -121,7 +147,7 @@
     </section>
 
     <section class="bloque" aria-labelledby="t-form">
-      <h2 id="t-form">Formación</h2>
+      <h2 id="t-form"><span class="section-index">05</span> Formación</h2>
       <div class="cuerpo">
         <div class="fila">
           <h3>Ingeniería en Desarrollo de Software</h3>
@@ -139,7 +165,7 @@
     </section>
 
     <section class="bloque" id="contacto" aria-labelledby="t-cont">
-      <h2 id="t-cont">Contacto</h2>
+      <h2 id="t-cont"><span class="section-index">06</span> Contacto</h2>
       <div class="cuerpo">
         <p>Si tienes una pasantía, un proyecto o una pregunta, escríbeme.</p>
         <p class="actions">

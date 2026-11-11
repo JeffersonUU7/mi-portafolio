@@ -10,9 +10,9 @@ Portafolio profesional de Jefferson Alexander Requeno Arévalo, estudiante de In
 - Habilidades técnicas y personales
 - Formación y contacto
 
-## Tecnologías
+## Diseño y tecnologías
 
-HTML5 y CSS3 (sitio estático, sin dependencias). Diseño responsive con modo claro y oscuro automático.
+HTML5 y CSS3 (sitio estático, sin dependencias de JavaScript). Diseño responsive con tema oscuro, acentos de color, animaciones accesibles y una ilustración original de paisaje pixelado hecha con CSS.
 
 ## Estructura
 
