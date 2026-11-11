@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jefferson Requeno | Estudiante de Ingeniería en Desarrollo de Software</title>
+  <meta name="description" content="Portafolio de Jefferson Alexander Requeno Arévalo, estudiante de Ingeniería en Desarrollo de Software en UNIVO, El Salvador. 2.º lugar en innovación, Rally Latinoamericano de Innovación 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Ingeniería en Desarrollo de Software, UNIVO</p>
+        <h1>Jefferson Alexander<br>Requeno Arévalo</h1>
+        <p class="lead">Estudiante de segundo año que desarrolla aplicaciones web con TypeScript, Python, Node.js y Next.js. Segundo lugar en innovación en el Rally Latinoamericano de Innovación 2026.</p>
+        <p class="actions">
+          <a class="btn primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn" href="#contacto">Contactarme</a>
+        </p>
+      </div>
+      <img class="foto" src="foto.png" width="236" height="357" alt="Retrato de Jefferson Requeno con saco y corbata">
+    </div>
+  </header>
+
+  <main id="contenido" class="wrap">
+
+    <section class="bloque" aria-labelledby="t-sobre">
+      <h2 id="t-sobre">Sobre mí</h2>
+      <div class="cuerpo">
+        <p>Estudio Ingeniería en Desarrollo de Software en la Universidad de Oriente (UNIVO) y cursando el cuarto ciclo. Practico a diario en GitHub: he construido aplicaciones web, APIs y sistemas con contenedores en las materias de Programación Orientada a Eventos, Gestión de Servidores Web y Estructuras de Datos.</p>
+        <p>Busco una pasantía o un puesto junior donde pueda aportar con código y seguir aprendiendo en un equipo de desarrollo.</p>
+      </div>
+    </section>
+
+    <section class="bloque destacado" aria-labelledby="t-logro">
+      <h2 id="t-logro">Reconocimiento</h2>
+      <div class="cuerpo">
+        <h3>2.º lugar, categoría de innovación</h3>
+        <p>Rally Latinoamericano de Innovación 2026, sede Universidad de Oriente, El Salvador. Con el equipo <strong>Optired</strong> competí el 16 y 17 de octubre de 2026, de forma simultánea con equipos de 11 países de la región.</p>
+        <p class="meta">Diploma de segundo lugar y certificado de participante emitidos el 20 de octubre de 2026.</p>
+      </div>
+    </section>
+
+    <section class="bloque" id="proyectos" aria-labelledby="t-proy">
+      <h2 id="t-proy">Proyectos</h2>
+      <div class="cuerpo">
+
+        <article class="proyecto">
+          <h3>Mamá Toyo: pedidos para llevar y menú del día</h3>
+          <p>Sistema web para un comedor de San Miguel donde el cliente ve el menú, hace su pedido con anticipación y la cocina recibe la lista de pendientes. Proyecto de Gestión de Servidores Web en un equipo de 6 personas, donde coordiné el equipo y escribí la documentación.</p>
+          <p class="meta">Arquitectura: navegador, Apache con HTTPS y reverse proxy, y API en Express y TypeScript dentro de un contenedor Docker. El diseño final prevé un balanceador Nginx con PostgreSQL.</p>
+          <ul class="tags"><li>TypeScript</li><li>Express</li><li>Docker</li><li>Apache</li><li>HTTPS</li><li>Nginx</li></ul>
+          <p class="links"><a href="https://github.com/JeffersonUU7/mama-toyo-pedidos" target="_blank" rel="noopener">Ver código en GitHub</a></p>
+        </article>
+
+        <article class="proyecto">
+          <h3>Gestión de Tareas</h3>
+          <p>Aplicación web para organizar tareas con fecha límite y prioridad. Resalta en rojo las tareas vencidas, ofrece vistas de tareas y resumen con estadísticas, validaciones y un diseño responsive con tema oscuro. Laboratorio de Programación Orientada a Eventos.</p>
+          <p class="meta">Arquitectura MVC con módulos ES, datos guardados en localStorage y despliegue en Vercel.</p>
+          <ul class="tags"><li>TypeScript</li><li>MVC</li><li>HTML y CSS</li><li>Vercel</li></ul>
+          <p class="links"><a href="https://lista-tareas-sand-xi.vercel.app/" target="_blank" rel="noopener">Ver demo en línea</a><a href="https://github.com/JeffersonUU7/lista-tareas" target="_blank" rel="noopener">Ver código</a></p>
+        </article>
+
+        <article class="proyecto">
+          <h3>Jardín de Código: flores amarillas animadas</h3>
+          <p>Experiencia web interactiva con flores animadas dibujadas en HTML5 Canvas. Proyecto de Programación Orientada a Eventos.</p>
+          <ul class="tags"><li>Next.js 14</li><li>React 18</li><li>HTML5 Canvas</li><li>CSS</li><li>Vercel</li></ul>
+          <p class="links"><a href="https://proyecto-flores-amarillas-one.vercel.app/" target="_blank" rel="noopener">Ver demo en línea</a><a href="https://github.com/JeffersonUU7/Proyecto_Flores_Amarillas" target="_blank" rel="noopener">Ver código</a></p>
+        </article>
+
+        <article class="proyecto">
+          <h3>API de blog (blog.local)</h3>
+          <p>API REST con operaciones completas de crear, leer, actualizar y eliminar artículos, con base de datos en JSON, empaquetada en un contenedor Docker y publicada detrás de Apache como reverse proxy.</p>
+          <ul class="tags"><li>Express</li><li>TypeScript</li><li>Node.js</li><li>Docker</li><li>REST</li></ul>
+          <p class="links"><a href="https://github.com/JeffersonUU7/blog.local.api" target="_blank" rel="noopener">Ver código en GitHub</a></p>
+        </article>
+
+        <article class="proyecto">
+          <h3>Estructuras de datos y prácticas en Python</h3>
+          <p>Repositorios con las clases, laboratorios y guías de ejercicios de Estructuras de Datos, resueltos en Python.</p>
+          <ul class="tags"><li>Python</li><li>Estructuras de datos</li></ul>
+          <p class="links"><a href="https://github.com/JeffersonUU7/class_estructuras_de_datos" target="_blank" rel="noopener">Ver código en GitHub</a></p>
+        </article>
+
+        <article class="proyecto">
+          <h3>Programación Orientada a Objetos con TypeScript</h3>
+          <p>Más de 15 repositorios de prácticas, clases abstractas, exámenes parciales y una API con Prisma, trabajados durante la materia de POO.</p>
+          <ul class="tags"><li>TypeScript</li><li>POO</li><li>Prisma</li></ul>
+          <p class="links"><a href="https://github.com/JeffersonUU7/PRACTICAS-POO_PROYECTO-API" target="_blank" rel="noopener">Ver proyecto de API</a><a href="https://github.com/JeffersonUU7" target="_blank" rel="noopener">Ver los 53 repositorios</a></p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="bloque" aria-labelledby="t-hab">
+      <h2 id="t-hab">Habilidades</h2>
+      <div class="cuerpo">
+        <h3>Lenguajes</h3>
+        <ul class="chips">
+          <li>TypeScript</li><li>JavaScript</li><li>Python</li><li>HTML</li><li>CSS</li>
+        </ul>
+        <h3>Desarrollo web y servidores</h3>
+        <ul class="chips">
+          <li>Node.js</li><li>Express</li><li>Next.js</li><li>React</li><li>APIs REST</li><li>Prisma</li><li>Docker</li><li>Apache</li><li>Nginx</li>
+        </ul>
+        <h3>Herramientas</h3>
+        <ul class="chips">
+          <li>Git</li><li>GitHub</li><li>Vercel</li><li>VS Code</li><li>Microsoft Office</li><li>Soporte técnico básico</li>
+        </ul>
+        <h3>Personales</h3>
+        <ul class="chips suaves">
+          <li>Trabajo en equipo</li><li>Responsabilidad</li><li>Adaptabilidad</li><li>Atención al cliente</li><li>Rapidez para aprender</li><li>Puntualidad</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bloque" aria-labelledby="t-form">
+      <h2 id="t-form">Formación</h2>
+      <div class="cuerpo">
+        <div class="fila">
+          <h3>Ingeniería en Desarrollo de Software</h3>
+          <p>Universidad de Oriente (UNIVO). Desde 2025, segundo año, cuarto ciclo.</p>
+        </div>
+        <div class="fila">
+          <h3>Bachiller General</h3>
+          <p>Instituto Nacional de Moncagua, 2024.</p>
+        </div>
+        <div class="fila">
+          <h3>Capacitaciones</h3>
+          <p>Taller sobre tecnologías emergentes e inteligencia artificial. Taller sobre principios básicos de mantenimiento y soporte técnico de equipos informáticos (2024).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloque" id="contacto" aria-labelledby="t-cont">
+      <h2 id="t-cont">Contacto</h2>
+      <div class="cuerpo">
+        <p>Si tienes una pasantía, un proyecto o una pregunta, escríbeme.</p>
+        <p class="actions">
+          <a class="btn primary" href="mailto:j.alexxrequeno07@gmail.com">j.alexxrequeno07@gmail.com</a>
+          <a class="btn" href="https://github.com/JeffersonUU7" target="_blank" rel="noopener">GitHub: JeffersonUU7</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="wrap pie">
+    <p>Jefferson Alexander Requeno Arévalo · San Miguel, El Salvador</p>
+  </footer>
+</body>
+</html>
